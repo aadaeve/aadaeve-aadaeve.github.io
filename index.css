@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+table {
+    margin-top: 2% !important;
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+.lahde {
+    margin-top: -10px;
+    margin-bottom: 1%;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+}
+
+.kuvat {
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        width: 80%;
+    }
+
+    .lahde {
+        width: 80%;
+        font-size: 13px;
+    }
+
+    img {
+        width: 80%;
+        height: 80%;
+        margin-bottom: 5%;
+    }
+
+}
